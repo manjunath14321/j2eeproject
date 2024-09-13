@@ -4,7 +4,7 @@ pipeline {
 
         stage('pull') {
             steps {
-                git branch: 'main', url: 'https://github.com/manjunath14321/j2eeproject'
+                git branch: 'main', url: 'https://github.com/manjunath14321/j2eeproject.git'
             }
         }
         stage('compile') {
